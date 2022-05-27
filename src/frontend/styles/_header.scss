@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  height: auto;
+  padding: 3rem;
+
+  background-color: $color-blue;
+}
+
+.navigation {
+  &__lists {
+
+  }
+
+  &__list {
+
+  }
+
+  &__link {
+    background-color: $color-blue;
+
+    // .navigation__link:hover {...}
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+}
