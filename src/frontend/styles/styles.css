@@ -15,8 +15,6 @@
   height: 25px;
   left: 96px;
   top: 38px;
-  font-family: 'Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 25px;
@@ -234,5 +232,122 @@
   text-align: center;
   text-decoration: none;
   color: #ffffff;
+}
+
+.main__menu {
+  position: absolute;
+  left: 0;
+  top: 662px;
+  width: 100%;
+  height: auto;
+  background-color: #403C3B;
+}
+
+.dishes__title {
+  position: relative;
+  max-width: 1200px;
+  height: 39px;
+  left: 112px;
+  top: 25px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #72A479;
+}
+
+.dishes__cards {
+  padding: 60px;
+  position: relative;
+  top: 50px;
+}
+
+.dish__card {
+  display: inline-block;
+  width: 325px;
+  height: 385px;
+  margin: 0 10px;
+  background-color: #504B4A;
+}
+
+.dish__img {
+  width: 325px;
+  height: 227px;
+  margin: 0;
+}
+
+.dish__content {
+  width: 325px;
+  height: 157px;
+  margin-top: 0;
+}
+
+.dish__title {
+  font-weight: 700;
+  width: auto;
+  height: 27px;
+  font-size: 22px;
+  line-height: 27px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.dish__subtitle {
+  height: 14px;
+  width: 54px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  float: right;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.dish__text {
+  height: 34px;
+  width: 249px;
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.dish__price {
+  width: 51px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+  float: left;
+}
+
+.dish__button {
+  background: linear-gradient(114.93deg, #72A479 5.11%, #72A479 94%);
+  border-radius: 10px;
+  height: 44px;
+  width: 137px;
+  float: right;
+  margin-right: 10px;
+}
+
+.button__img {
+  padding-right: 10px;
+  margin-top: 8px;
+  float: right;
+}
+
+.button__text {
+  padding-left: 10px;
+  margin-top: 12px;
+  color: #ffffff;
+  float: left;
 }
 /*# sourceMappingURL=styles.css.map */
