@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Index</title>
+  <title>Home</title>
 
-    <link rel="stylesheet" href="../frontend/styles/styles.css">
+  <link rel="stylesheet" href="../frontend/styles/styles.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="container">
-            <ul>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-                <li><a href="">Link</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="header">
+    <div class="header__head container">
+      <div class="logo">LOGOS</div>
+
+      <div class="search">
+        <div class="search__geo"></div>
+        <input class="search__input" type="search" placeholder="Введите адрес доставки">
+        <div class="search__find"></div>
+      </div>
+
+      <div class="contacts">
+        <div class="contacts__image">
+          <img src="./img/Calling.svg" alt="image__contact">
+        </div>
+
+        <div class="contacts__container">
+          <div class="contacts__title">Контакты:</div>
+          <div class="contacts__phone">
+            <a class="contacts__link" href="tel:+79175105759">+7 (917) 510-57-59</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="basket">
+        <div class="basket__title">Корзина</div>
+        <div class="basket__count"><p class="count">4</p>
+          </div>
+      </div>
+    </div> 
+
+    <div class="header__banner banner">
+      <h1 class="banner__title">Доставка вкуснейших блюд за 60 минут</h1>
+      <h3 class="banner__description">Еще не пробовал ?</h3>
+    </div>
+
+    <div class="header__navigation container">
+      <nav class="navigation">
+        <div class="navigation__lists">
+          <div class="navigation__list"><a class="navigation__link" href="">Холодные закуски</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Горячие закуски</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Мясные блюда</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Супы</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Рыбные блюда</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Гриль меню</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Фирменные блюда</a></div>
+          <div class="navigation__list"><a class="navigation__link" href="">Напитки</a></div>
+        </div>
+      </nav>
+    </div>
+  </header> 
 </body>
 </html>
