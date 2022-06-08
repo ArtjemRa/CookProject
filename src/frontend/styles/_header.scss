@@ -1,243 +1,228 @@
-.header {
+body,
+html{
+  width: 100%;
+  height: auto;
 
-  &__head {
-    position: absolute;
-    width: 100%;
-    height: 99px;
-    left: 0px;
-    top: 0px;
-
-    background: $color-gray;
-    box-shadow: 0px 30px 60px $color-black;
-
-    .logo {
-      position: absolute;
-      width: 100px;
-      height: 25px;
-      left: 96px;
-      top: 38px;
-
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 25px;
-
-      letter-spacing: 0.15em;
-
-      color: $color-white;
-    }
-    .search {
-      position: absolute;
-      width: 555px;
-      height: 52px;
-      left: 268px;
-      top: 23px;
-
-      background: $color-l-gray;
-      border-radius: 10px;
-
-      &__geo {
-        content: url('../img/Search.png');
-        float: right;
-        padding-top: 15px;
-        padding-right: 15px;
-      }
-
-      &__find {
-        content: url('../img/Location.svg');
-        float: left;
-        padding-top: 15px;
-        padding-left: 15px;
-      }
-
-      input::placeholder {
-        font-size: 15px;
-        color: $color-white;
-      }
-
-      &__input {
-        display: inline-block;
-        width: 80%;
-        padding-top: 17px;
-        padding-left: 30px;
-
-        border: 2px solid $color-l-gray;
-        border-radius: 10px;
-        color: $color-white;
-        background-color: $color-l-gray;
-        outline: none;
-      }
-    }
-
-    .contacts {
-      position: absolute;
-      display: inline-block;
-      width: 20%;
-      top: 25px;
-      right: 360px;
-
-      &__image {
-        position: relative;
-
-        width: 50px;
-        height: 50px;
-        margin-right: 15px;
-        float: left;
-
-        background-color: $color-green;
-        border-radius: 50%;
-
-        img {
-          position: absolute;
-          top: 18px;
-          left: 18px;
-        }
-      }
-
-      &__container {
-        padding-top: 5px;
-      }
-
-      &__title {
-        font-size: small;
-        color: $color-white;
-      }
-      &__phone {
-        padding-top: 10px;
-        a {
-          color: $color-white;
-          text-decoration: none;
-        }
-      }
-    }
-
-    .basket {
-      position: absolute;
-      width: 149px;
-      height: 52px;
-      right: 50px;
-      top: 23px;
-
-      background: linear-gradient(114.93deg, $color-green 5.11%, $color-green 94%);
-      border-radius: 10px;
-
-      &__title {
-        position: absolute;
-        left: 15px;
-        top: 17px;
-
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 17px;
-
-        color: $color-white;
-      }
-      &__count {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        right: 15px;
-        top: 13px;
-
-        background-color: $color-white;
-        border-radius: 50%;
-
-        .count{
-          position: relative;
-          bottom: 13px;
-          left: 7px;
-        }
-      }
-    }
-  }
-
-  &__banner {
-      position: absolute;
-      top: 100px;
-      left: 0;
-      width: 100%;
-      height: 484px;
-
-      background-image: url('../img/Group.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size:cover;
-
-    .banner {
-      &__title {
-
-        position: absolute;
-        left: 6.44%;
-        right: 50.99%;
-        top: 6.95%;
-        bottom: 89.15%;
-
-        font-weight: 400;
-        font-size: 67px;
-        line-height: 109.2%;
-
-        text-align: center;
-
-        color: $color-white;
-
-        transform: rotate(-8.37deg);
-      }
-      &__description {
-        position: absolute;
-        left: 25%;
-        bottom: 30%;
-
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 109.2%;
-
-        width: 200px;
-        height: 30px;
-        padding: 10px;
-
-        text-align: center;
-        color: $color-white;
-
-        transform: rotate(-8.37deg);
-        background: linear-gradient(114.93deg, $color-green 5.11%, $color-green 94%);
-      }
-    }
-  }
-  
-  &__navigation {
-    position:absolute;
-    top: 584px;
-    width: 100%;
-    height: 78px;
-    left: 0px;
-    background: $color-gray;
-
-    .navigation {
-      &__lists {
-        position: relative;
-        top: 13px;
-        left: 185px;
-        width: 1272px;
-        height: 21px;
-
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 21px;
-      }
-    
-      &__list {
-        display: inline-block;
-        box-sizing: border-box;
-        
-        margin: 15px;
-      }
-    
-      &__link {
-        font-size: 18px;
-        text-align: center;
-        text-decoration:none;
-        color: $color-white; 
-
-      }
-    }
-  }
+  padding: 0;
+  margin: 0;
 }
+  .header {
+    &__head {
+      position: relative;
+      width: 100%;
+      height: 99px;
+      top: 0px;
+  
+      background: $color-gray;
+      box-shadow: 0px 30px 60px $color-black;
+      .logo {
+        position: absolute;
+        width: 100px;
+        height: 25px;
+        left: 96px;
+        top: 38px;
+  
+        font-size: 25px;
+        line-height: 25px;
+  
+        letter-spacing: 0.15em;
+  
+        color: $color-white;
+      }
+      .search {
+        position: absolute;
+        width: 555px;
+        height: 52px;
+        left: 268px;
+        top: 23px;
+  
+        background: $color-l-gray;
+        border-radius: 10px;
+        &__geo {
+          content: url('../img/Search.svg');
+          float: right;
+          padding-top: 15px;  
+          padding-right: 15px;
+        }
+        &__find {
+          content: url('../img/Location.svg');
+          float: left;
+          padding-top: 15px;
+          padding-left: 15px;
+        }
+        input::placeholder {
+          font-size: 15px;
+          color: $color-white;
+        }
+        &__input {
+          display: inline-block;
+          width: 80%;
+          padding-top: 17px;
+          padding-left: 30px;
+  
+          border: 2px solid $color-l-gray;
+          border-radius: 10px;
+          color: $color-white;
+          background-color: $color-l-gray;
+          outline: none;
+        }
+      }
+      .contacts {
+        position: absolute;
+        display: inline-block;
+        width: 20%;
+        top: 25px;
+        right: 360px;
+        &__image {
+          position: relative;
+  
+          width: 50px;
+          height: 50px;
+          margin-right: 15px;
+          float: left;
+  
+          background-color: $color-green;
+          border-radius: 50%;
+  
+          img {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+          }
+        }
+        &__container {
+          padding-top: 5px;
+        }
+        &__title {
+          font-size: small;
+          color: $color-white;
+        }
+        &__phone {
+          padding-top: 10px;
+          a {
+            color: $color-white;
+            text-decoration: none;
+          }
+        }
+      }
+      .basket {
+        position: absolute;
+        width: 149px;
+        height: 52px;
+        right: 50px;
+        top: 23px;
+  
+        background: linear-gradient(114.93deg, $color-green 5.11%, $color-green 94%);
+        border-radius: 10px;
+        &__title {
+          position: absolute;
+          left: 15px;
+          top: 17px;
+  
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 17px;
+  
+          color: $color-white;
+        }
+        &__count {
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          right: 15px;
+          top: 13px;
+  
+          background-color: $color-white;
+          border-radius: 50%;
+  
+          .count{
+            position: relative;
+            bottom: 13px;
+            left: 7px;
+          }
+        }
+      }
+    }
+    &__banner {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 484px;
+  
+        background-image: url('../img/Group.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+      .banner {
+        &__title {
+          position: absolute;
+          left: 6.44%;
+          right: 50.99%;
+          top: 6.95%;
+          bottom: 89.15%;
+  
+          font-weight: 400;
+          font-size: 67px;
+          line-height: 109.2%;
+  
+          text-align: center;
+  
+          color: $color-white;
+  
+          transform: rotate(-8.37deg);
+        }
+        &__description {
+          position: absolute;
+          left: 25%;
+          bottom: 30%;
+  
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 109.2%;
+  
+          width: 200px;
+          height: 30px;
+          padding: 10px;
+  
+          text-align: center;
+          color: $color-white;
+  
+          transform: rotate(-8.37deg);
+          background: linear-gradient(114.93deg, $color-green 5.11%, $color-green 94%);
+        }
+      }
+    }
+    &__navigation {
+      position:relative;
+      top: 0;
+      width: 100%;
+      height: 78px;
+      background: $color-gray;
+      .navigation {
+        &__lists {
+          position: relative;
+          top: 13px;
+          left: 185px;
+          width: 1272px;
+          height: 21px;
+  
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+        }
+        &__list {
+          display: inline-block;
+          box-sizing: border-box;
+          
+          margin: 15px;
+        }
+        &__link {
+          font-size: 18px;
+          text-align: center;
+          text-decoration:none;
+          color: $color-white; 
+        }
+      }
+    }
+  }
+
